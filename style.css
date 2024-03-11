@@ -106,12 +106,12 @@ h1 {
     justify-content: center;
 }
 
-#myprogresbar {
+#myProgressBar {
     width: 80vw;
     cursor: pointer;
 }
 
-.icon {}
+
 
 .cantrol {
     font-size: 45px;
