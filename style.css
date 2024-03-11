@@ -4,6 +4,17 @@
 
 body {
     background-color: antiquewhite;
+    text-rendering: geometricPrecision;
+    -webkit-touch-callout: none;
+    /* iOS Safari */
+    -webkit-user-select: none;
+    /* Safari */
+    -moz-user-select: none;
+    /* Firefox */
+    -ms-user-select: none;
+    /* Internet Explorer/Edge */
+    user-select: none;
+    /* Standard syntax */
 }
 
 * {
@@ -132,7 +143,7 @@ h1 {
     font-family: 'ubuntu', sans-serif;
 }
 
-.songinfo img {
+#gif {
     opacity: 0;
     transition: opacity 1s ease-in;
 }
